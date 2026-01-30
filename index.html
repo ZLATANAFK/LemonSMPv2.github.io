@@ -4,63 +4,62 @@
   <meta charset="UTF-8">
   <title>Lemon SMP</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<div class="bg-glow"></div>
+<!-- INTRO CINEMATIC -->
+<div id="intro">
+  <h1 class="intro-text">LEMON SMP</h1>
+  <p class="intro-sub">Initializing world...</p>
+</div>
 
-<nav class="navbar">
-  <div class="logo">🍋 LEMON SMP</div>
+<!-- PARTICLES -->
+<canvas id="particles"></canvas>
+
+<!-- CURSOR -->
+<div class="cursor"></div>
+
+<!-- NAV -->
+<nav class="navbar hidden">
+  <h2>🍋 Lemon SMP</h2>
   <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#forum">Forum</a></li>
-    <li><a href="#staff">Staff</a></li>
-    <li><a href="#apps">Aplicații</a></li>
+    <li>Home</li>
+    <li>Forum</li>
+    <li>Staff</li>
+    <li>Server</li>
   </ul>
 </nav>
 
-<section id="home" class="hero">
-  <h1 class="neon-text">LEMON SMP</h1>
-  <p class="subtitle">Minecraft Survival • Community Driven</p>
-
-  <div class="hero-cards">
-    <div class="neon-card">IP<br><span>lemonsmp.mnt.li</span></div>
-    <div class="neon-card">Version<br><span>1.20.x</span></div>
-    <div class="neon-card online">Status<br><span>ONLINE</span></div>
-  </div>
+<!-- HERO -->
+<section class="hero hidden">
+  <h1 class="neon">LEMON SMP</h1>
+  <p>Gaming • Survival • Neon Community</p>
 </section>
 
-<section id="forum" class="section glass">
-  <h2>Forum</h2>
-  <p>Discuții • Anunțuri • Sugestii</p>
+<!-- SECTIONS -->
+<section class="card reveal">
+  <h3>⚡ Server</h3>
+  <p>IP: lemonsmp.mnt.li</p>
 </section>
 
-<section id="staff" class="section">
-  <h2>Staff</h2>
-  <div class="grid">
-    <div class="staff-card">Mant0ni0<span>Fondator</span></div>
-    <div class="staff-card">qxerror<span>Co-Fondator</span></div>
-    <div class="staff-card">Samir<span>Tehnic</span></div>
-    <div class="staff-card">Deyyu<span>Admin</span></div>
-  </div>
+<section class="card reveal">
+  <h3>🔥 Comunitate</h3>
+  <p>Staff activ • Eventuri • Distracție</p>
 </section>
 
-<section id="apps" class="section glass">
-  <h2>Aplicații</h2>
-  <div class="grid">
-    <div class="app-box">Cerere Unban</div>
-    <div class="app-box">Aplicație Staff</div>
-    <div class="app-box">Aplicație Media</div>
-  </div>
+<section class="card reveal">
+  <h3>🎮 Gameplay</h3>
+  <p>Survival Custom • PvP • Economy</p>
 </section>
 
-<footer>
-  © 2026 Lemon SMP • Gaming UI
+<footer class="hidden">
+  © 2026 Lemon SMP
 </footer>
 
+<audio id="introSound" src="assets/intro.mp3"></audio>
+
+<script src="js/effects.js"></script>
 </body>
 </html>
