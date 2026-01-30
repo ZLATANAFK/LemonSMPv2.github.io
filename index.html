@@ -9,34 +9,38 @@
 
 <body>
 
-<!-- INTRO AI -->
-<div id="intro">
-  <h1 class="intro-title glitch">LEMON SMP</h1>
-  <p class="intro-ai">AI CORE LOADING</p>
-  <div class="loader">
-    <div class="bar"></div>
-  </div>
-</div>
+<!-- VIDEO BACKGROUND -->
+<video autoplay muted loop id="bg-video">
+  <source src="assets/bg.mp4" type="video/mp4">
+</video>
 
-<!-- PARTICLES -->
-<canvas id="particles"></canvas>
+<!-- OVERLAY -->
+<div class="overlay"></div>
+
+<!-- INTRO -->
+<div id="intro">
+  <h1 class="glitch">LEMON SMP</h1>
+  <p>INITIALIZING POLICE CORE</p>
+  <div class="loader"><div class="bar"></div></div>
+</div>
 
 <!-- CURSOR -->
 <div class="cursor"></div>
 <div class="cursor-dot"></div>
 
-<!-- HUD -->
+<!-- HUD POLICE -->
 <div class="hud">
-  <div>🟢 ONLINE</div>
-  <div>👥 42 PLAYERS</div>
-  <div>📡 PING 23ms</div>
+  <div>🚓 UNIT: LSPD</div>
+  <div>📡 SIGNAL: STRONG</div>
+  <div>⚡ FPS: 144</div>
+  <div>👥 PLAYERS: 42</div>
 </div>
 
 <!-- NAV -->
 <nav class="nav hidden">
   <span>🍋 Lemon SMP</span>
   <ul>
-    <li>Home</li>
+    <li>Dashboard</li>
     <li>Forum</li>
     <li>Staff</li>
     <li>Server</li>
@@ -44,25 +48,24 @@
 </nav>
 
 <!-- HERO -->
-<section class="hero hidden">
-  <h1 class="neon">LEMON SMP</h1>
-  <p>Survival • Neon • Next-Gen</p>
+<section class="hero hidden parallax">
+  <h1 class="neon">POLICE ROLEPLAY</h1>
+  <p>FiveM • Tactical • Next-Gen</p>
 </section>
 
-<!-- CARDS -->
-<section class="card reveal">
-  <h3>⚡ Minecraft SMP</h3>
-  <p>Custom gameplay • Economy • Events</p>
+<section class="panel reveal parallax">
+  <h3>🚨 LSPD SYSTEM</h3>
+  <p>Dispatch • Units • Patrol</p>
 </section>
 
-<section class="card reveal">
-  <h3>🔥 FiveM-style UI</h3>
-  <p>HUD inspired • Smooth animations</p>
+<section class="panel reveal parallax">
+  <h3>🧠 AI EVENTS</h3>
+  <p>Dynamic situations • Realism</p>
 </section>
 
-<section class="card reveal">
-  <h3>🎮 Community</h3>
-  <p>Staff activ • Zero lag • Fun</p>
+<section class="panel reveal parallax">
+  <h3>🎮 COMMUNITY</h3>
+  <p>Serious RP • Active Staff</p>
 </section>
 
 <footer class="hidden">© 2026 Lemon SMP</footer>
