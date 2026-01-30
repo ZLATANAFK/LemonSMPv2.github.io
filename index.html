@@ -9,10 +9,13 @@
 
 <body>
 
-<!-- INTRO CINEMATIC -->
+<!-- INTRO AI -->
 <div id="intro">
-  <h1 class="intro-text">LEMON SMP</h1>
-  <p class="intro-sub">Initializing world...</p>
+  <h1 class="intro-title glitch">LEMON SMP</h1>
+  <p class="intro-ai">AI CORE LOADING</p>
+  <div class="loader">
+    <div class="bar"></div>
+  </div>
 </div>
 
 <!-- PARTICLES -->
@@ -20,10 +23,18 @@
 
 <!-- CURSOR -->
 <div class="cursor"></div>
+<div class="cursor-dot"></div>
+
+<!-- HUD -->
+<div class="hud">
+  <div>🟢 ONLINE</div>
+  <div>👥 42 PLAYERS</div>
+  <div>📡 PING 23ms</div>
+</div>
 
 <!-- NAV -->
-<nav class="navbar hidden">
-  <h2>🍋 Lemon SMP</h2>
+<nav class="nav hidden">
+  <span>🍋 Lemon SMP</span>
   <ul>
     <li>Home</li>
     <li>Forum</li>
@@ -35,30 +46,30 @@
 <!-- HERO -->
 <section class="hero hidden">
   <h1 class="neon">LEMON SMP</h1>
-  <p>Gaming • Survival • Neon Community</p>
+  <p>Survival • Neon • Next-Gen</p>
 </section>
 
-<!-- SECTIONS -->
+<!-- CARDS -->
 <section class="card reveal">
-  <h3>⚡ Server</h3>
-  <p>IP: lemonsmp.mnt.li</p>
-</section>
-
-<section class="card reveal">
-  <h3>🔥 Comunitate</h3>
-  <p>Staff activ • Eventuri • Distracție</p>
+  <h3>⚡ Minecraft SMP</h3>
+  <p>Custom gameplay • Economy • Events</p>
 </section>
 
 <section class="card reveal">
-  <h3>🎮 Gameplay</h3>
-  <p>Survival Custom • PvP • Economy</p>
+  <h3>🔥 FiveM-style UI</h3>
+  <p>HUD inspired • Smooth animations</p>
 </section>
 
-<footer class="hidden">
-  © 2026 Lemon SMP
-</footer>
+<section class="card reveal">
+  <h3>🎮 Community</h3>
+  <p>Staff activ • Zero lag • Fun</p>
+</section>
+
+<footer class="hidden">© 2026 Lemon SMP</footer>
 
 <audio id="introSound" src="assets/intro.mp3"></audio>
+<audio id="hoverSound" src="assets/hover.mp3"></audio>
+<audio id="clickSound" src="assets/click.mp3"></audio>
 
 <script src="js/effects.js"></script>
 </body>
